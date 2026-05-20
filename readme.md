@@ -1,6 +1,8 @@
 # Packing Checklist
 
-## Essentials
+## Core Always Pack
+
+### Essentials
 - [ ] Wallet
 - [ ] Keys
 - [ ] Phone
@@ -12,9 +14,17 @@
 - [ ] Watch charger
 - [ ] Water bottle
 - [ ] Glasses / contacts / contact solution
-- [ ] Credit cards / debit cards / cash
 
-## Documents
+### Money / Admin
+- [ ] Credit cards / debit cards / cash
+- [ ] Local currency
+- [ ] Backup card
+- [ ] Emergency contact details
+- [ ] Password manager access
+- [ ] 2FA backup codes / security key
+- [ ] VPN
+
+### Documents
 - [ ] Driver’s license
 - [ ] Passport
 - [ ] Travel insurance
@@ -22,12 +32,25 @@
 - [ ] Flight / train confirmation
 - [ ] Hotel / Airbnb confirmation
 - [ ] Rental car confirmation
-- [ ] Emergency contact details
 - [ ] Visa / entry requirements
 - [ ] Passport expiry check
 - [ ] Copies / photos of key documents
+- [ ] Copies of prescriptions
+- [ ] International driving permit
 
-## Clothes
+### Luggage
+- [ ] Suitcase / duffel
+- [ ] Backpack / daypack
+- [ ] Packing cubes
+- [ ] Toiletry bag
+- [ ] Laundry bag / dirty clothes bag
+- [ ] Zip bags
+- [ ] Wet bag
+- [ ] Reusable tote
+- [ ] Luggage tags
+- [ ] Travel lock
+
+### Clothes
 - [ ] Underwear
 - [ ] Socks
 - [ ] T-shirts
@@ -39,17 +62,15 @@
 - [ ] Rain jacket
 - [ ] Sleepwear
 - [ ] Belt
-- [ ] Laundry bag / dirty clothes bag
-- [ ] Zip bags
 
-## Shoes
+### Shoes
 - [ ] Everyday shoes
 - [ ] Running shoes
 - [ ] Hiking shoes / boots
 - [ ] Sandals / slides
 - [ ] Dress shoes
 
-## Toiletries
+### Toiletries
 - [ ] Toothbrush
 - [ ] Toothpaste
 - [ ] Floss
@@ -69,7 +90,7 @@
 - [ ] Tissues
 - [ ] Hand sanitizer
 
-## Medication / Health
+### Medication / Health
 - [ ] Prescription medication
 - [ ] Painkillers
 - [ ] Allergy medication
@@ -80,8 +101,13 @@
 - [ ] Blister plasters
 - [ ] Earplugs
 - [ ] Sleep mask
+- [ ] Eye drops
+- [ ] Thermometer
+- [ ] COVID / rapid test
+- [ ] Insect repellent
+- [ ] Bite cream
 
-## Technology
+### Technology
 - [ ] Laptop
 - [ ] Laptop charger
 - [ ] iPad / Kindle
@@ -98,7 +124,26 @@
 - [ ] eSIM / roaming plan
 - [ ] Offline translation app / phrasebook
 
-## Running / Hiking
+### Comfort / In Transit
+- [ ] Book / Kindle
+- [ ] Snacks
+- [ ] Protein bars
+- [ ] Gum / mints
+- [ ] Coffee / tea
+- [ ] Travel mug
+- [ ] Neck pillow
+- [ ] Compression socks
+- [ ] Blanket
+
+### Laundry
+- [ ] Detergent sheets
+- [ ] Stain remover pen
+- [ ] Travel clothesline
+- [ ] Sink stopper
+
+## Trip Modules
+
+### Running / Hiking
 - [ ] Running shoes
 - [ ] Running socks
 - [ ] Running shorts
@@ -115,8 +160,13 @@
 - [ ] Headlamp
 - [ ] Small first-aid kit
 - [ ] Blister kit
+- [ ] Bug spray
+- [ ] Map / compass
+- [ ] Trekking poles
+- [ ] Rain cover
+- [ ] Emergency blanket
 
-## Dog
+### Dog Travel
 - [ ] Leash
 - [ ] Long line
 - [ ] Collar
@@ -129,10 +179,10 @@
 - [ ] Dog bed / blanket
 - [ ] Towel
 - [ ] Toy / chew
-- [ ] Medication
+- [ ] Dog medication
 - [ ] Vaccination records
 
-## Dog Sitting
+### Dog Sitting
 - [ ] Dog sitter contact
 - [ ] Care instructions
 - [ ] Feeding schedule
@@ -151,7 +201,7 @@
 - [ ] Confirm pickup / dropoff times
 - [ ] Confirm sitter has address and parking details
 
-## Beach / Pool
+### Beach / Pool
 - [ ] Swimwear
 - [ ] Towel
 - [ ] Sandals
@@ -162,7 +212,7 @@
 - [ ] Dry bag
 - [ ] Book / Kindle
 
-## Cold / Wet Weather
+### Cold / Wet Weather
 - [ ] Warm coat
 - [ ] Thermal base layer
 - [ ] Warm socks
@@ -173,15 +223,7 @@
 - [ ] Waterproof shoes
 - [ ] Umbrella
 
-## Food / Drink
-- [ ] Snacks
-- [ ] Protein bars
-- [ ] Electrolytes
-- [ ] Gum / mints
-- [ ] Coffee / tea
-- [ ] Travel mug
-
-## Car / Road Trip
+### Car / Road Trip
 - [ ] Driver’s license
 - [ ] Registration / insurance
 - [ ] Phone mount
@@ -194,17 +236,19 @@
 - [ ] Emergency kit
 - [ ] Downloaded maps
 
-## Work / Writing
+### Work / Writing
 - [ ] Laptop
-- [ ] Charger
+- [ ] Laptop charger
 - [ ] Notebook
 - [ ] Pens
 - [ ] Kindle / book
 - [ ] Work badge
-- [ ] Documents
+- [ ] Work documents
 - [ ] Backup files
 
-## Before Leaving
+## Pre-Departure
+
+### Before Leaving
 - [ ] Take out trash
 - [ ] Empty fridge perishables
 - [ ] Turn off stove / oven
@@ -223,7 +267,3 @@
 - [ ] Spare key / house key plan
 - [ ] Hold mail / packages
 - [ ] Pet / home sitter instructions
-
-## Luggage
-- [ ] Luggage tags
-- [ ] Travel lock
