@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Packing Checklist
 ---
 
@@ -18,18 +19,11 @@ title: Packing Checklist
     line-height: 1.5;
   }
 
-  .markdown-body {
-    color: var(--text);
-    font-family: inherit;
-  }
-
-  .container-lg {
+  .page {
     max-width: 720px;
-  }
-
-  .my-5 {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
+    margin: 0 auto;
+    padding-right: 24px;
+    padding-left: 24px;
     padding-top: 48px;
     padding-bottom: 80px;
   }
@@ -69,7 +63,7 @@ title: Packing Checklist
   }
 
   li.task-list-item,
-  .markdown-body .task-list-item {
+  .task-list-item {
     display: flex;
     align-items: center;
     gap: 9px;
@@ -80,12 +74,12 @@ title: Packing Checklist
   }
 
   li.task-list-item:hover,
-  .markdown-body .task-list-item:hover {
+  .task-list-item:hover {
     color: #000;
   }
 
   li.task-list-item:has(input:checked),
-  .markdown-body .task-list-item:has(input:checked) {
+  .task-list-item:has(input:checked) {
     color: var(--muted);
   }
 
@@ -163,8 +157,10 @@ title: Packing Checklist
   }
 
   @media (max-width: 620px) {
-    .my-5 {
+    .page {
       padding-top: 32px;
+      padding-right: 20px;
+      padding-left: 20px;
     }
 
     h1 {
