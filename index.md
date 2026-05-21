@@ -4,27 +4,16 @@ title: Packing Checklist
 
 <style>
   :root {
-    --bg: #fafafa;
-    --panel: #ffffff;
+    --bg: #ffffff;
     --text: #111111;
-    --muted: #666666;
+    --muted: #666;
     --line: #eaeaea;
-    --line-strong: #d4d4d4;
-    --accent: #0070f3;
-    --accent-soft: #e8f2ff;
+    --line-strong: #dcdcdc;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
 
-  html {
-    background: var(--bg);
-  }
-
   body {
-    background:
-      linear-gradient(var(--line) 1px, transparent 1px),
-      linear-gradient(90deg, var(--line) 1px, transparent 1px),
-      var(--bg);
-    background-size: 44px 44px;
+    background: var(--bg);
     color: var(--text);
     font-size: 15px;
     line-height: 1.5;
@@ -36,12 +25,12 @@ title: Packing Checklist
   }
 
   .container-lg {
-    max-width: 920px;
+    max-width: 720px;
   }
 
   .px-3 {
-    padding-right: 20px !important;
-    padding-left: 20px !important;
+    padding-right: 24px !important;
+    padding-left: 24px !important;
   }
 
   .my-5 {
@@ -52,39 +41,36 @@ title: Packing Checklist
   }
 
   h1 {
-    max-width: 680px;
-    margin: 0 0 12px;
+    margin: 0 0 20px;
     border: 0;
-    font-size: clamp(40px, 8vw, 76px);
-    font-weight: 750;
+    font-size: 40px;
+    font-weight: 650;
     letter-spacing: 0;
-    line-height: 0.94;
+    line-height: 1.1;
   }
 
   h2 {
-    margin: 56px 0 18px;
-    border: 0;
+    margin: 48px 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
     color: var(--text);
-    font-size: 13px;
+    font-size: 24px;
     font-weight: 650;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    letter-spacing: 0;
   }
 
   h3 {
-    margin: 28px 0 10px;
+    margin: 28px 0 8px;
     color: var(--text);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 650;
     letter-spacing: 0;
   }
 
   ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 8px;
     margin: 0;
     padding: 0;
+    list-style: none;
   }
 
   li {
@@ -94,31 +80,22 @@ title: Packing Checklist
   li.task-list-item,
   .markdown-body .task-list-item {
     display: flex;
-    min-height: 44px;
     align-items: center;
-    gap: 10px;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    background: color-mix(in srgb, var(--panel) 92%, transparent);
-    padding: 10px 12px;
+    gap: 9px;
+    min-height: 36px;
+    border-bottom: 1px solid var(--line);
+    padding: 8px 0;
     color: var(--text);
-    transition:
-      border-color 140ms ease,
-      background 140ms ease,
-      color 140ms ease,
-      transform 140ms ease;
+    transition: color 120ms ease;
   }
 
   li.task-list-item:hover,
   .markdown-body .task-list-item:hover {
-    border-color: var(--line-strong);
-    background: var(--panel);
+    color: #000;
   }
 
   li.task-list-item:has(input:checked),
   .markdown-body .task-list-item:has(input:checked) {
-    border-color: color-mix(in srgb, var(--accent) 38%, var(--line));
-    background: var(--accent-soft);
     color: var(--muted);
   }
 
@@ -137,14 +114,13 @@ title: Packing Checklist
     z-index: 10;
     display: grid;
     grid-template-columns: 1fr auto;
-    gap: 12px;
+    gap: 10px;
     align-items: center;
-    margin: 24px 0 44px;
+    margin: 0 0 36px;
     border: 1px solid var(--line);
-    border-radius: 8px;
-    background: color-mix(in srgb, var(--panel) 88%, transparent);
+    border-radius: 6px;
+    background: rgb(255 255 255 / 86%);
     padding: 12px;
-    box-shadow: 0 12px 40px rgb(0 0 0 / 6%);
     backdrop-filter: blur(12px);
   }
 
@@ -170,7 +146,7 @@ title: Packing Checklist
 
   .checklist-progress__bar {
     grid-column: 1 / -1;
-    height: 6px;
+    height: 4px;
     overflow: hidden;
     border-radius: 999px;
     background: var(--line);
@@ -187,7 +163,7 @@ title: Packing Checklist
   .checklist-reset {
     border: 1px solid var(--line-strong);
     border-radius: 6px;
-    background: var(--panel);
+    background: #fff;
     color: var(--text);
     padding: 6px 10px;
     font: inherit;
@@ -204,8 +180,8 @@ title: Packing Checklist
       padding-top: 32px;
     }
 
-    ul {
-      grid-template-columns: 1fr;
+    h1 {
+      font-size: 34px;
     }
 
     .checklist-progress {
