@@ -66,9 +66,9 @@ title: Packing Checklist
   .task-list-item {
     display: flex;
     align-items: center;
-    gap: 9px;
-    min-height: 36px;
-    padding: 6px 0;
+    gap: 8px;
+    min-height: 24px;
+    padding: 2px 0;
     color: var(--text);
     transition: color 120ms ease;
   }
@@ -84,8 +84,8 @@ title: Packing Checklist
   }
 
   input[type="checkbox"] {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     flex: 0 0 auto;
     margin: 0;
     accent-color: var(--text);
