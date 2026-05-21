@@ -27,11 +27,6 @@ title: Packing Checklist
     max-width: 720px;
   }
 
-  .px-3 {
-    padding-right: 24px !important;
-    padding-left: 24px !important;
-  }
-
   .my-5 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
