@@ -84,6 +84,7 @@ title: Packing Checklist
   }
 
   input[type="checkbox"] {
+    -webkit-appearance: none;
     appearance: none;
     display: grid;
     width: 22px;
@@ -91,18 +92,19 @@ title: Packing Checklist
     place-content: center;
     flex: 0 0 auto;
     margin: 0;
-    border-radius: 999px;
+    border-radius: 6px;
     background: #f5f5f5;
     cursor: pointer;
   }
 
   input[type="checkbox"]::before {
-    width: 8px;
-    height: 8px;
-    border-radius: inherit;
-    background: #fff;
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
     content: "";
     opacity: 0;
+    transform: translateY(-1px) rotate(45deg);
   }
 
   input[type="checkbox"]:checked {
