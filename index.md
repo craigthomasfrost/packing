@@ -98,8 +98,8 @@ title: Packing Checklist
   }
 
   input[type="checkbox"]::before {
-    width: 14px;
-    height: 14px;
+    width: 17px;
+    height: 17px;
     background: #fff;
     content: "";
     opacity: 0;
