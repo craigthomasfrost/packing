@@ -7,8 +7,7 @@ title: Packing Checklist
     --bg: #ffffff;
     --text: #111111;
     --muted: #666;
-    --line: #eaeaea;
-    --line-strong: #dcdcdc;
+    --track: #f1f1f1;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
 
@@ -42,7 +41,6 @@ title: Packing Checklist
 
   h1 {
     margin: 0 0 20px;
-    border: 0;
     font-size: 40px;
     font-weight: 650;
     letter-spacing: 0;
@@ -50,9 +48,7 @@ title: Packing Checklist
   }
 
   h2 {
-    margin: 48px 0 14px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--line);
+    margin: 52px 0 16px;
     color: var(--text);
     font-size: 24px;
     font-weight: 650;
@@ -60,7 +56,7 @@ title: Packing Checklist
   }
 
   h3 {
-    margin: 28px 0 8px;
+    margin: 30px 0 8px;
     color: var(--text);
     font-size: 16px;
     font-weight: 650;
@@ -83,8 +79,7 @@ title: Packing Checklist
     align-items: center;
     gap: 9px;
     min-height: 36px;
-    border-bottom: 1px solid var(--line);
-    padding: 8px 0;
+    padding: 6px 0;
     color: var(--text);
     transition: color 120ms ease;
   }
@@ -117,10 +112,8 @@ title: Packing Checklist
     gap: 10px;
     align-items: center;
     margin: 0 0 36px;
-    border: 1px solid var(--line);
-    border-radius: 6px;
     background: rgb(255 255 255 / 86%);
-    padding: 12px;
+    padding: 10px 0;
     backdrop-filter: blur(12px);
   }
 
@@ -149,7 +142,7 @@ title: Packing Checklist
     height: 4px;
     overflow: hidden;
     border-radius: 999px;
-    background: var(--line);
+    background: var(--track);
   }
 
   .checklist-progress__fill {
@@ -161,18 +154,17 @@ title: Packing Checklist
   }
 
   .checklist-reset {
-    border: 1px solid var(--line-strong);
-    border-radius: 6px;
+    border: 0;
     background: #fff;
-    color: var(--text);
-    padding: 6px 10px;
+    color: var(--muted);
+    padding: 6px 0 6px 10px;
     font: inherit;
     font-size: 13px;
     cursor: pointer;
   }
 
   .checklist-reset:hover {
-    border-color: var(--text);
+    color: var(--text);
   }
 
   @media (max-width: 620px) {
