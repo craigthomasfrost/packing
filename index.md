@@ -190,10 +190,6 @@ title: Packing Checklist
     .checklist-progress {
       grid-template-columns: 1fr;
     }
-
-    .checklist-reset {
-      width: 100%;
-    }
   }
 </style>
 
