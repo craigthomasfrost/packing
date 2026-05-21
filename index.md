@@ -93,9 +93,6 @@ title: Packing Checklist
   }
 
   .checklist-progress {
-    position: sticky;
-    top: 12px;
-    z-index: 10;
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 10px;
@@ -168,7 +165,6 @@ title: Packing Checklist
     }
 
     .checklist-progress {
-      top: 8px;
       grid-template-columns: 1fr;
     }
 
