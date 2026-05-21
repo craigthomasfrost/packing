@@ -66,9 +66,9 @@ title: Packing Checklist
   .task-list-item {
     display: flex;
     align-items: center;
-    gap: 8px;
-    min-height: 24px;
-    padding: 2px 0;
+    gap: 10px;
+    min-height: 32px;
+    padding: 4px 0;
     color: var(--text);
     transition: color 120ms ease;
   }
@@ -84,12 +84,33 @@ title: Packing Checklist
   }
 
   input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
+    appearance: none;
+    display: grid;
+    width: 22px;
+    height: 22px;
+    place-content: center;
     flex: 0 0 auto;
     margin: 0;
-    accent-color: var(--text);
+    border-radius: 999px;
+    background: #f5f5f5;
     cursor: pointer;
+  }
+
+  input[type="checkbox"]::before {
+    width: 8px;
+    height: 8px;
+    border-radius: inherit;
+    background: #fff;
+    content: "";
+    opacity: 0;
+  }
+
+  input[type="checkbox"]:checked {
+    background: var(--text);
+  }
+
+  input[type="checkbox"]:checked::before {
+    opacity: 1;
   }
 
   .checklist-progress {
