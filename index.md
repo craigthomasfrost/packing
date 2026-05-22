@@ -187,15 +187,6 @@ title: Packing Checklist
     h1 {
       font-size: 34px;
     }
-
-    .checklist-progress {
-      grid-template-columns: 1fr;
-    }
-
-    .checklist-reset {
-      justify-self: start;
-      padding-left: 0;
-    }
   }
 </style>
 
