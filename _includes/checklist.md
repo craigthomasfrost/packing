@@ -11,7 +11,6 @@
 - [ ] Headphones
 - [ ] Sunglasses
 - [ ] Watch
-- [ ] Watch charger
 - [ ] Water bottle
 - [ ] Glasses / contacts / contact solution
 
