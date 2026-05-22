@@ -163,6 +163,7 @@ title: Packing Checklist
   }
 
   .checklist-reset {
+    justify-self: end;
     border: 0;
     background: #fff;
     color: var(--muted);
@@ -189,6 +190,11 @@ title: Packing Checklist
 
     .checklist-progress {
       grid-template-columns: 1fr;
+    }
+
+    .checklist-reset {
+      justify-self: start;
+      padding-left: 0;
     }
   }
 </style>
